@@ -33,11 +33,13 @@ my $builder = $class->new(
         'Data::ObjectDriver' => 0.04,
         'Digest::MD5'        => 0,
         'Storable'           => 0,
+        'Scalar::Util'       => 0,
     },
     requires => {
         'Data::ObjectDriver' => 0.04,
         'Digest::MD5'        => 0,
         'Storable'           => 0,
+        'Scalar::Util'       => 0,
     },
     add_to_cleanup => [ 'TheSchwartz-*', 'tmp', 'blib', '*.bak', 'META.*' ],
     script_files   => ['bin/schwartzmon'],

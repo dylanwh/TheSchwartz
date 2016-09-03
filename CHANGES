@@ -1,5 +1,6 @@
 NEXT UNRELEASED
 - Fix schwartzmon error. RT #104046
+- Support sub-classing TheSchwart::Job. https://github.com/jfearn/TheSchwartz/pull/2
 
 1.12 Mon Mar 30 2015
 - Fix replace_job hanging & postgresql issues. RT #65712

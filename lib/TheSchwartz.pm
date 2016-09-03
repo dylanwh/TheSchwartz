@@ -1065,6 +1065,11 @@ By default when work_once does not find a job it will reset current_abilities to
 all_abilities and look for a job. Setting this option will prevent work_once from
 resetting abilities if it can't find a job for the current capabilities.
 
+=item * C<job_class>
+
+The class to use for jobs, defaults to TheSchwartz::Job. Should be overridden in
+subclasses of  TheSchwartz::Job.
+
 =back
 
 =head2 C<$client-E<gt>list_jobs( %args )>

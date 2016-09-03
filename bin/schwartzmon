@@ -247,7 +247,8 @@ sub print_error {
 package DBSet;
 
 sub new {
-    return bless [];
+    my $class = $shift;
+    return bless {}, $class;
 }
 
 sub add {
